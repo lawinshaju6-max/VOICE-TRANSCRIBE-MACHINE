@@ -1,0 +1,29 @@
+{
+  "serial": {
+    "port": "COM8",
+    "auto_detect": true,
+    "baud_rate": 115200,
+    "boot_delay_seconds": 2.5,
+    "timeout": 12.0
+  },
+  "motion": {
+    "cmd_pen_up": "M03 S90",
+    "cmd_pen_down": "M03 S0",
+    "servo_dwell": 0.35,
+    "rapid_feed": 1800,
+    "draw_feed": 800
+  },
+  "geometry": {
+    "page_width": 170.0,
+    "page_height": 290.0,
+    "margin_left": 15.0,
+    "start_y": 270.0,
+    "line_spacing": 9.5,
+    "font_scale": 0.28
+  },
+  "speech": {
+    "engine": "google",
+    "ambient_duration": 1.0,
+    "phrase_timeout": 8.0
+  }
+}

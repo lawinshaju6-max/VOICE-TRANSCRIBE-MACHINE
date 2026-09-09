@@ -1,0 +1,18 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Hardware & Diagnostic Logs
+*.log
+hardware.log
+
+# Temporary / Scratch
+.vscode/
+.idea/
+*.tmp
